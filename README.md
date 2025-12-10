@@ -37,6 +37,7 @@ short video clips around the moment of detection, allowing easy event playback a
 analysis.
 Finally, a Streamlit dashboard provides a user-friendly interface to visualize event data,
 view corresponding video clips, and review driver performance in a summarized manner.
+
 b) Background of the Project: Driver fatigue and inattention are among the leading causes
 of traffic accidents worldwide. Studies have shown that sleepiness or temporary loss of
 alertness accounts for a significant proportion of fatal crashes, particularly in commercial
@@ -63,8 +64,10 @@ in structured CSV format, allowing for both real-time feedback and post-session 
 Additionally, it incorporates FFmpeg automation to generate short video segments around
 critical events—providing tangible evidence and improving system interpretability for both
 users and developers.
+
 c) Addressing the Gap / Novelty of the Project:
 The project overcomes the above limitations through:
+
 i) Hybrid Dual-Framework Detection:
 Unlike traditional single-framework systems that rely solely on Dlib or OpenCV for face analysis,
 this project integrates Dlib’s 68-face-landmark model with Mediapipe’s FaceMesh and
@@ -74,6 +77,7 @@ and face orientations.
 This hybrid approach ensures stable computation of Eye Aspect Ratio (EAR) and Mouth
 Aspect Ratio (MAR) while simultaneously analyzing iris movement and head pose,
 resulting in more reliable detection of drowsiness, yawning, and distraction.
+
 ii) Automated Event Logging and Clip Generation:
 Previous drowsiness detection systems lacked a mechanism for recording and verifying detection
 events.
@@ -83,6 +87,7 @@ Further, using FFmpeg (v8.0-essentials_build), the system automatically generate
 short video clips around the detected events.
 This enables transparent validation of system accuracy and provides a visual record for future
 review or analysis.
+
 iii) Real-Time, Non-Intrusive, and Portable Design:
 Existing deep-learning or sensor-based solutions often depend on specialized hardware like
 GPUs or EEG sensors, resulting in high cost and complexity.
@@ -96,11 +101,12 @@ framework that delivers accurate fatigue detection, real-time responsiveness, an
 verification — addressing major limitations of earlier models while remaining accessible and
 practical for everyday use
 
-5. Objec-ves of the Project
+5. Objectives of the Project:
+
 The principal objectives of the project are as follows:
-• Detect driver drowsiness through facial monitoring.
-• Compute EAR and MAR using Dlib.
-• Use Mediapipe FaceMesh for better tracking.
-• Log events in CSV with timestamp, user, and details.
-• Auto-generate alert clips with FFmpeg.
-• Provide Streamlit dashboard for review.
+* Detect driver drowsiness through facial monitoring.
+* Compute EAR and MAR using Dlib.
+* Use Mediapipe FaceMesh for better tracking.
+* Log events in CSV with timestamp, user, and details.
+* Auto-generate alert clips with FFmpeg.
+* Provide Streamlit dashboard for review.
