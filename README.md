@@ -1,19 +1,19 @@
 # DriverDrowsiness
 
-1. Title of the Project
+1. Title of the Project:
 Driver Drowsiness Detection System using Dlib Face Landmark Detection and Mediapipe
 Integration
 A real-time AI-based system designed to monitor a driver’s alertness level by analyzing
 facial expressions, eye blinking rate, yawning frequency, and head movement using
 computer vision frameworks like Dlib and Mediapipe.
 
-2. Field / Area of Project
+2. Field / Area of Project: 
 This project lies in the intersection of multiple cutting-edge domains:
-•Computer Vision
-•Artificial Intelligence (AI)
-•Real-Time Video Analytics
-•Human–Computer Interaction (HCI)
-•Automotive Safety Systems
+* Computer Vision
+* Artificial Intelligence (AI)
+* Real-Time Video Analytics
+* Human–Computer Interaction (HCI)
+* Automotive Safety Systems
 
 3. Summary and Background of the Project
 a) Summary of the Project: The Driver Drowsiness Detection System using Dlib and
