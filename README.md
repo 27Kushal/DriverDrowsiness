@@ -8,7 +8,7 @@ A real-time AI-based system designed to monitor a driver’s alertness level by 
 facial expressions, eye blinking rate, yawning frequency, and head movement using
 computer vision frameworks like Dlib and Mediapipe.
 
-3. Field / Area of Project: 
+2. Field / Area of Project: 
 This project lies in the intersection of multiple cutting-edge domains:
 * Computer Vision
 * Artificial Intelligence (AI)
@@ -101,7 +101,7 @@ framework that delivers accurate fatigue detection, real-time responsiveness, an
 verification — addressing major limitations of earlier models while remaining accessible and
 practical for everyday use
 
-5. Objectives of the Project:
+4. Objectives of the Project:
 
 The principal objectives of the project are as follows:
 * Detect driver drowsiness through facial monitoring.
